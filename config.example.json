@@ -1,0 +1,17 @@
+{
+  "hosts": {
+    "local": {
+      "url": "http://localhost:11434",
+      "label": "Local (THIS_GPU)"
+    },
+    "server": {
+      "url": "http://REMOTE_IP:11434",
+      "label": "Remote (REMOTE_GPU)"
+    }
+  },
+  "default_model": "qwen2.5-coder:14b",
+  "embed_model": "nomic-embed-text",
+  "timeout": 120.0,
+  "max_attempts": 2,
+  "retry_delay": 0.5
+}

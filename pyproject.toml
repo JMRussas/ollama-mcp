@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ollama-mcp"
+version = "0.1.0"
+description = "MCP server that exposes local Ollama instances as tools for Claude Code"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+    "mcp==1.26.0",
+    "httpx==0.28.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.0.2",
+    "pytest-asyncio==1.3.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
