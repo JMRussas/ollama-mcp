@@ -45,6 +45,10 @@ pip install -e ".[dev]"
 pytest tests/ -v
 ```
 
+## About
+
+Extracted from a private developer infrastructure repo and published as a standalone tool. This server runs daily as part of a multi-project AI development workflow spanning game engines, RAG pipelines, and task orchestration — see [mcp-rag](https://github.com/JMRussas/mcp-rag) and [orchestration-engine](https://github.com/JMRussas/orchestration-engine) for projects that use it.
+
 ## Troubleshooting
 
 | Problem | Cause | Fix |
