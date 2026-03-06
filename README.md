@@ -59,3 +59,7 @@ Extracted from a private developer infrastructure repo and published as a standa
 | `Request timed out` | Large model / slow hardware | Increase `timeout` in config.json, or pass `timeout` parameter |
 | `OFFLINE` in list_models | Host unreachable | Check network, firewall, Ollama port 11434 |
 | `cygpath: command not found` | Running setup.sh on Linux/macOS | See setup note above |
+
+## License
+
+MIT
